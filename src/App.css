@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: hsl(0, 0%, 95%);
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    padding: 2rem;
+    font-family: sans-serif;
+}
+header{
+    position: relative;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 1rem;
+    color: hsl(219, 9%, 45%);
+    cursor: pointer;
+}
+
+header .logo{
+    float: left;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+header .cart{
+    position: absolute;
+    top: 0.1rem;
+    right: 7rem;
+    cursor: pointer;
+}
+
+.avatar{
+    position: absolute;
+    top: -1rem;
+    right: 1rem;
+    cursor: pointer;
+    width: 3rem;
+}
+
+hr{
+    margin-top: 3rem;
+}
+
+.fix{
+    clear: both;
+}
+
+.fix-two{
+    clear: both;
+}
+
+.productOne{
+    width: 40%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    margin-left: 4rem;
+}
+
+.details{
+    position: relative;
+    margin-left: 40rem;
+    margin-top: -23rem;
+}
+
+.details h1{
+    margin-top: .5rem;
+}
+
+.details .first-p{
+    font-weight: 600;
+    font-size: .6rem;
+    color: hsl(26, 100%, 55%);
+}
+
+.details span{
+    display: block;
+}
+
+.details .second-p{
+    color: hsl(219, 9%, 45%);
+    margin-top: 2rem;
+}
+
+.price{
+    margin-top: 2rem;
+}
+
+.percentage{
+    position: absolute;
+    left: 7rem;
+    top: 13.15rem;
+    background-color: hsl(25, 100%, 90%);
+    color: hsl(26, 100%, 55%);
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+}
+
+.small {
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.counterContainer{
+    display: flex;
+    background-color:hsl(223, 64%, 98%);
+    width: 40%;
+    margin-right: 1rem;
+    border-radius: .5rem;
+}
+.counterContainer button{
+    color: hsl(26, 100%, 55%);
+    background:transparent ;
+    width: 100%;
+    font-weight: 900;
+    border: none;
+}
+
+.together{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.cartImage{
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    padding: .5rem 1rem;
+    width: 50%;
+    border-radius: .5rem;
+    color: white;
+    box-shadow: 4px 4px 7rem hsl(26, 78%, 66%);
+}
+
+.count{
+    margin-top: 0.5rem;
+    font-weight: 900;
+}
+
+.fill{
+    margin-right: 2rem;
+}
+
+.otherStyle{
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.testing {
+    border: 3px solid hsl(26, 100%, 55%);
+    border-radius: 1rem;
+    width: 100%;
+    
+}
+
+.otherContainer {
+    display: flex;
+    padding: .5rem;
+    width: 50%;
+}
+
+.testing:hover{
+    background-color: hsl(223, 64%, 98%);
+    cursor: pointer;
+}
